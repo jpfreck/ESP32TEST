@@ -1,0 +1,14 @@
+Command: /Users/jpfreck/.espressif/python_env/idf5.5_py3.13_env/bin/python /Users/jpfreck/esp/esp-idf/tools/idf_monitor.py -p /dev/tty.usbserial-58900066651 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/jpfreck/Documents/ESP32/hello_world/build/hello_world.elf /Users/jpfreck/Documents/ESP32/hello_world/build/bootloader/bootloader.elf -m '/Users/jpfreck/.espressif/python_env/idf5.5_py3.13_env/bin/python' '/Users/jpfreck/esp/esp-idf/tools/idf.py' '-p' '/dev/tty.usbserial-58900066651'
+[0;33m--- Warning: Serial ports accessed as /dev/tty.* will hang gdb if launched.[0m
+[0;33m--- Using /dev/cu.usbserial-58900066651 instead...[0m
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/cu.usbserial-58900066651 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _invalid_pc_placeholder at /Users/jpfreck/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+[0m
+[0;33m--- 0x40080638: call_start_cpu0 at /Users/jpfreck/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0;33m--- 0x40080400: _invalid_pc_placeholder at /Users/jpfreck/esp/esp-idf/components/xtensa/xtensa_vectors.S:2235
+[0m
+[0;33m--- 0x40080638: call_start_cpu0 at /Users/jpfreck/esp/esp-idf/components/bootloader/subproject/main/bootloader_start.c:25
+[0m
+[0m
